@@ -13,7 +13,7 @@ public class VariableThursday {
         // Multiple variables with similar datatypes
         String codename = "Ku", codename2 = "ri", codename3 = "maw";
 
-        System.out.println(codename);
+        System.out.println(codename + codename2 + codename3);
 
         // declaration
         float temp;
@@ -25,7 +25,7 @@ public class VariableThursday {
 
         // Concatination (+) -> joining strings
 
-        System.out.println(address + " " + codename);
+        System.out.println(address);
 
         // [Section] Mini-Activity
         // Print your fullnames
