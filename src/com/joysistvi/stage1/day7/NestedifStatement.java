@@ -56,8 +56,12 @@ public class NestedifStatement {
             System.out.println("Category: Child");
         } else if (age <= 19) { // 13 - 19
             System.out.println("Category: Teenager");
+        } else if (age <= 39) {
+            System.out.println("Category: Young Adult");
+        } else if (age <= 59) {
+            System.out.println("Category: Middle-Aged Adult");
         }else {
-            System.out.println("Invalid Input");
+            System.out.println("Category: Senior");
         }
     }
 }

@@ -13,7 +13,9 @@ public class Activity6_Balasa {
         int maxAttempts = 3;
         boolean isLoggedIn = false;
 
+        System.out.println(" === Log in === ");
         for (int attempt = 1; attempt <= maxAttempts; attempt++) {
+            System.out.println("Attempt: " + attempt + " of " + maxAttempts);
 
             System.out.print("Enter email: ");
             String loginEmail = scanner.nextLine();
@@ -27,7 +29,6 @@ public class Activity6_Balasa {
                 break;
             } else {
                 System.out.println("Invalid Username or Password");
-                System.out.println("Attempt " + attempt + " of " + maxAttempts);
             }
         }
 
