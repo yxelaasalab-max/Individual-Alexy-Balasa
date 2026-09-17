@@ -4,9 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
         // Single Inheritance: GCashPayment extend Payment
-        Payment gcashPayment = new GCashPayment(1000, 500);
+        GCashPayment gcashPayment = new GCashPayment(1000, 500);
 
         gcashPayment.printReceipt(250);
+
+        gcashPayment.refund(500);
+//        String txnId = gcashPayment.generateTransactionId();
+//        gcashPayment.logTransaction(txnId);
 
         // Multiple Inheritance
         // #1 - Refundable
